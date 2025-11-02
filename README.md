@@ -107,26 +107,30 @@ Sinhalese → English	Helsinki-NLP/opus-mt-si-en
 
 These MarianMT Transformer models from Helsinki-NLP provide high-quality, context-aware translation performance and can be fine-tuned for future improvements.
 
+
+ Project Structure:
+
 translation_app/
 ├── app.py
 ├── requirements.txt
 ├── models/
-│   ├── __init__.py
-│   ├── nepali_translator.py
-│   └── sinhalese_translator.py
+│ ├── init.py
+│ ├── nepali_translator.py
+│ └── sinhalese_translator.py
 ├── utils/
-│   ├── __init__.py
-│   ├── ocr_engine.py
-│   └── file_processor.py
+│ ├── init.py
+│ ├── ocr_engine.py
+│ └── file_processor.py
 ├── templates/
-│   ├── index.html
-│   └── result.html
+│ ├── index.html
+│ └── result.html
 ├── static/
-│   ├── css/
-│   └── js/
-|── data/
-|    └── training/
-└── README.md                   # Project documentation    
+│ ├── css/
+│ └── js/
+├── data/
+│ └── training/
+└── README.md
+
 
 📦 Technologies Used
 
@@ -150,6 +154,5 @@ Add real-time translation previews.
 Integrate cloud-based APIs for hybrid online/offline use.
 
 Improve UI/UX with modern interactive design.
-
 
 Enable custom model fine-tuning for domain-specific translation needs.
